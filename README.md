@@ -1,6 +1,6 @@
-프론트 엔드 React
-백엔드 Node.js
-배포 AWS EC2
+프론트 엔드 React<br/>
+백엔드 Node.js<br/>
+배포 AWS EC2<br/>
 
 기능<br/>
   1.박스오피스 순위<br/>
