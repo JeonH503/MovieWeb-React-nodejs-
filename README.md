@@ -36,7 +36,7 @@
 
 로그인 정보 전달 : REDUX<br/>
 
-주소 : <br/>
+주소 : http://ec2-15-164-169-134.ap-northeast-2.compute.amazonaws.com:4000/<br/>
 
 이 사이트는 댓글,회원 정보를 API로 만들어 React에서 정보를 받는다<br/>
 로그인 성공시 JWT에 정보를 담아 cookie로 만들어 다른 페이지에서도 로그인 여부의 정보를 받는다<br/>
