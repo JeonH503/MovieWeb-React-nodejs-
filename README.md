@@ -1,68 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+프론트 엔드 React
+백엔드 Node.js
+배포 AWS EC2
 
-## Available Scripts
+기능
+  1.박스오피스 순위
+    ● 일일 순위
+    ● 주간 순위
+    
+  2.회원
+    ● 로그인
+    ● 회원 가입
+    ● 회원 수정
+    ● 회원 가입
+    
+  3.영화 검색
+    ● 무한 스크롤
+  
+  4.영화 상세 정보
+  
+  5.댓글
+    ● 댓글 목록 표시
+    ● 댓글 등록
+    ● 댓글 수정
+    ● 댓글 삭제
 
-In the project directory, you can run:
+사용한 API
+  1.themoviedb : www.themoviedb.org
+  2.영화 진흥 위원회 : https://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do
+  
+사용한 DBMS : MySql
 
-### `yarn start`
+라우팅 : react-router v4
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+로그인 인증 : JWT+cookie
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+로그인 정보 전달 : REDUX
 
-### `yarn test`
+주소 : 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+이 사이트는 댓글,회원 정보를 API로 만들어 React에서 정보를 받는다
+로그인 성공시 JWT에 정보를 담아 cookie로 만들어 다른 페이지에서도 로그인 여부의 정보를 받는다
 
-### `yarn build`
+영화 진흥 위원회에서 박스오피스 순위의 대한 정보를 받고
+그 영화에 맞는 자세한 정보(포스터,개봉일,회사 등)를 theMovieDb에서 받아 사용자에게 보여준다
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+각 영화 상세 페이지마다 댓글 기능이 있고 해당기능은 로그인을 해야만 사용할수있다.
