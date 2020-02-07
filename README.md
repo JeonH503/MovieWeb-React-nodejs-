@@ -4,26 +4,26 @@
 
 기능<br/>
   1.박스오피스 순위<br/>
-    ● 일일 순위<br/>
-    ● 주간 순위<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● 일일 순위<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● 주간 순위<br/>
     
   2.회원<br/>
-    ● 로그인<br/>
-    ● 회원 가입<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.아이디 중복체크 구현<br/>
-    ● 회원 수정<br/>
-    ● 회원 가입<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● 로그인<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● 회원 가입<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.아이디 중복체크 구현<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● 회원 수정<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● 회원 가입<br/>
     
   3.영화 검색<br/>
-    ● 무한 스크롤<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● 무한 스크롤<br/>
   
   4.영화 상세 정보<br/>
   
   5.댓글<br/>
-    ● 댓글 목록 표시<br/>
-    ● 댓글 등록<br/>
-    ● 댓글 수정<br/>
-    ● 댓글 삭제<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● 댓글 목록 표시<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● 댓글 등록<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● 댓글 수정<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● 댓글 삭제<br/>
 
 사용한 API<br/>
   1.themoviedb : www.themoviedb.org<br/>
