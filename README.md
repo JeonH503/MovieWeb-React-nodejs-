@@ -1,6 +1,6 @@
 프론트 엔드 React<br/>
 백엔드 Node.js<br/>
-배포 AWS EC2<br/>
+배포 AWS EC2 ubuntu<br/>
 
 기능<br/>
   1.박스오피스 순위<br/>
@@ -10,6 +10,7 @@
   2.회원<br/>
     ● 로그인<br/>
     ● 회원 가입<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.아이디 중복체크 구현
     ● 회원 수정<br/>
     ● 회원 가입<br/>
     
