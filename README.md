@@ -10,7 +10,7 @@
   2.회원<br/>
     ● 로그인<br/>
     ● 회원 가입<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.아이디 중복체크 구현
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.아이디 중복체크 구현<br/>
     ● 회원 수정<br/>
     ● 회원 가입<br/>
     
